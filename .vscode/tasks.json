@@ -8,7 +8,6 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}","${fileDirname}\\example06.c",
-
                 "-o",                
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"                
             ],

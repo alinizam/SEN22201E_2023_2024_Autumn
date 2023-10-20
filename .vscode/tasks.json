@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${file}","..\\Week02Theory\\example06.c",
                 "-o",                
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"                
             ],

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    int array[]={1 ,5,6,5,6};
+    int array[]={1,5,6,5,6};
     int *p;
     p=array;
     if (p==array){

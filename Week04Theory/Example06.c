@@ -21,8 +21,8 @@ int main(void){
      because function pointer address navigation with pointer 
      is not directly supported. 
     */
-    int (*p)(int a)=*functionPointerArray;
 
+    int (*p)(int a)=*functionPointerArray;
     for (size_t i = 0; i < 5; i++)
     {
        printf("%dth calculation = %d\n",i,p(5));

@@ -11,7 +11,7 @@
 int main(void)
 {
     
-    printf("%d\n",square(5)());
+    //printf("%d\n",square(5)());
     MACRO(5,"ssss");
     return 0;
 }

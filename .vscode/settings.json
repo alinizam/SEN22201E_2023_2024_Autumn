@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "example06.h": "c",
-        "B.C": "cpp"
+        "B.C": "cpp",
+        "stdio.h": "c"
     }
 }

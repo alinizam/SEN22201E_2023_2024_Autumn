@@ -30,7 +30,7 @@ int main(void)
             sum+=*pp;
             pp++;
         }*/
-       for (int *pp = numbers[i]; *pp !=-1; pp++)
+        for (int *pp = numbers[i]; *pp !=-1; pp++)
         {
              sum+=*pp;
         }

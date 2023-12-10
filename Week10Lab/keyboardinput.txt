@@ -1,0 +1,1 @@
+:file content test with spaces and	tabs but no new lines

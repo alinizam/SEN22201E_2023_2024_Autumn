@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Write a program to read an existing file. 
+// Input the file name to be opened.
+
+int main(void)
+{
+    char array[100];
+    printf("Input file name:");
+    FILE* fp = fopen(array, "r");
+    if (fp != NULL){
+        while (!feof(fp)) {
+            fgets(array, 100, fp);
+            // fscanf(fp, "%s", array); // alternative
+            // space, tab, newline
+            printf("%s", array);
+        }
+    }
+    return 0;
+}
